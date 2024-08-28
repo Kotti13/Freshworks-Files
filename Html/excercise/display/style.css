@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    border:1px solid black;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.items{
+    background-color: pink;
+    
+    
+}

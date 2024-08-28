@@ -1,0 +1,39 @@
+.flex-container{
+    display: grid;
+    
+}
+
+.box-1{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.box-2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.box-3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.box-4{
+    background-color: skyblue;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.box-5{
+    background-color:darkgrey;
+    height: 100px;
+    width: 100px;
+    color: white;
+}

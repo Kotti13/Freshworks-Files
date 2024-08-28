@@ -1,0 +1,94 @@
+div {
+	width: 12.5%;
+	height: 30vw;
+	--url: center/30vw url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Terrarc.png");		
+	transition: transform 1s cubic-bezier(.8,-.5,.2,1.4);
+}
+div:nth-of-type(1) {
+	background: left var(--url);
+}
+div:nth-of-type(2) {
+	background: 12.5% var(--url);
+}
+div:nth-of-type(3) {
+	background: 25% var(--url);
+	transform: scaley(.9);
+}
+div:nth-of-type(4) {
+	background: 37.5% var(--url);
+	transform: scaley(1.1);
+}
+div:nth-of-type(5) {
+	background: 50% var(--url);
+	transform: scaley(.9);
+}
+div:nth-of-type(6) {
+	background: 62.5% var(--url);
+	transform: scaley(1.1);
+}
+div:nth-of-type(7) {
+	background: 75% var(--url);
+	transform: scaley(.8);
+}
+div:nth-of-type(8) {
+	background: 87.5% var(--url);
+		transform: scaley(1);
+}
+div:nth-of-type(9) {
+	background: 100% var(--url);
+	transform: scaley(1.1);
+}
+section:hover div:nth-of-type(8),
+section:hover div:nth-of-type(6){
+	transition-delay: .5s;
+}
+section:hover div:nth-of-type(4),
+section:hover div:nth-of-type(1){
+	transition-delay: .6s;
+}
+section:hover div:nth-of-type(3),
+section:hover div:nth-of-type(9){
+	transition-delay: .2s;
+}
+section:hover div:nth-of-type(2),
+section:hover div:nth-of-type(7),
+section:hover div:nth-of-type(5){
+	transition-delay: .4s;
+}
+section:hover div{
+	transform: translateX(300%);
+}
+
+section{
+	cursor: pointer;
+	display: flex;
+	width: 30vw;
+	aspect-ration:1/1;
+	filter: brightness(120%);
+	z-index: 1;
+}
+p {
+	margin-left: 20px;
+	font-family: courier new;
+	font-size: 2vw;
+	font-weight: bold;
+}
+body > *{
+	grid-area: 1/1;	
+	place-content: center;
+
+}
+body {
+	height: 100vh;
+	display: grid;
+	place-content: center;
+	margin: 0;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+@media(max-width:720px) {
+	section,p {
+		transform: scale(1.5);
+	}
+}

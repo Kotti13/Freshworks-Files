@@ -1,0 +1,36 @@
+/* Reset default browser styles */
+html, body {
+    margin: 1;
+    padding: 1;
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Example font */
+}
+
+/* Global styles */
+body {
+    background-color: #236371; /* Light gray background */
+    color: #349bba3; /* Dark gray text */
+    line-height: 1.9; /* Improved readability */
+}
+
+.container {
+    width: 90%; /* Adjust width as needed */
+    margin: 1 auto; /* Center container */
+    padding: 30%;
+}
+
+h1, h2, h3 {
+    color: #11cf7d; /* Darker text color for headings */
+}
+
+p {
+    margin-bottom: 25px; /* Space between paragraphs */
+}
+
+a {
+    color: #327fd1; /* Link color (blue) */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,6 @@
+section h1 {
+    color: blue;
+}
+section > h1 {
+    color: rgb(60, 255, 0);
+}
