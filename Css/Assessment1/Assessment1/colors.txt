@@ -1,0 +1,30 @@
+#FF6347 -Orange color
+#F4F4F4 - Light grey color - Used in about us
+#F9F9F9 - Box background color
+#ddd - Box border color
+#333 - Box text color
+
+
+
+<div class="projects-container">
+            <div>
+                <img src="./assets/project-1.png"/>
+                <h2>Project one</h2>
+                <a href="www.github.com" class="github-1">GIthub</a>
+                <a href="www.livedemo.com" class="live demo"></a>
+                
+            </div>
+        </div>
+
+
+
+#Projects{
+    position: relative;
+}
+
+.Projects{
+    font-size: 50px;
+    margin-top:300px;
+    text-align: center;
+    
+}

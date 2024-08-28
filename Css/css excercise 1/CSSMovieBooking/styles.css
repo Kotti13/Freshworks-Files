@@ -1,0 +1,57 @@
+*{margin: 0;
+padding: 0;}
+
+body{text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.header{
+    
+    background-color: #282C34;
+    padding-bottom: 20px;}
+.header h1,p{position: relative;
+    text-align: center;
+    color: white;}
+
+    .about{padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+background-color: #F4F4F4;}
+
+.now{margin-bottom: 30px;}
+
+h3{font-size: medium;}
+
+.movies{margin-top: 30px;}
+.spiderman{margin-top: 40px;}
+img{border-radius: 5px;
+    height: 250px;
+width: 150px;}
+.footer{margin-top: 30px;
+background-color: #282C34;
+color: white;}
+img{border: 1px solid black;
+box-sizing: border-box;
+}
+.spiderman{margin: auto;
+    background-color: rgb(196, 249, 249);
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+width: 200px;
+border-radius: 5px;}
+.endgame{margin: auto;
+    background-color: rgb(196, 249, 249);
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+width: 200px;
+border-radius: 5px;}
+.inception{margin: auto;
+    background-color: rgb(196, 249, 249);
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+width: 200px;
+border-radius: 5px;}
+.movies,img{margin-top: 10px;}
+.spiderman,p{margin-bottom: 20px;}

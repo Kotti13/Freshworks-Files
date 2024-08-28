@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* margin: 20px; */
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 100px;
+    /* No positioning is specified, so they will be statically positioned */
+}
+
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(221, 200, 168);
+    /* position: absolute;  for a parent or a basic container absolute not needed logically*/
+    position: relative;
+    
+}
+
+
+.box1 {
+    background-color: orange;
+    left: 170px;
+    position: absolute;
+
+
+
+
+    
+}
+
+.box2 {
+    background-color: rgb(247, 249, 247);
+    position: relative;
+    left: 190px;
+    top: 20px;
+    
+    
+    
+    
+
+}
+
+.box3 {
+    background-color: rgb(9, 89, 45);
+    position: relative;
+    left: 210px;
+    bottom: 100px;
+    
+    
+      
+    
+}

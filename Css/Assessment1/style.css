@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    background-color: #FF6347;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.about{
+    background-color: #F4F4F4;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.our{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.spaghetti-bolognese{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    align-items: center;
+    padding-top: 10px;
+    width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    
+}
+
+.grilled-steak{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    align-items: center;
+    padding-top: 10px;
+    width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+}
+
+.caesar-salad{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    align-items: center;
+    padding-top: 10px;
+    width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    height: 400px;
+    margin-bottom: 40px;
+    text-align: center;
+
+
+}
+
+.footer h2,ul {
+    background-color: #FF6347;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+
