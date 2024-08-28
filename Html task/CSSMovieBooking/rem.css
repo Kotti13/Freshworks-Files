@@ -1,0 +1,27 @@
+
+body{
+    font-size: 30px;
+}
+
+.box{
+    border: 5px solid blue;
+    background-color: rgb(165, 165, 131);
+    font-size: 2em ;
+
+
+}
+
+h2{
+    margin-left: 10px;
+}
+
+h2{
+  font-size: 2rem;
+    
+
+}
+
+.lorem{
+    font-size: 30px;
+    margin: auto;
+}
